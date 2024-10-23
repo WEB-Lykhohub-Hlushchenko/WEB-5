@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат користувачів</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="user-input">
+        <h3>Повідомлення користувача 1</h3>
+        <input type="text" id="user1-input" placeholder="Введіть текст">
+        <button onclick="sendMessage(1)">Відправити</button>
+    </div>
+
+    <div class="chat-box" id="chat-box"></div>
+
+    <div class="user-input">
+        <h3>Повідомлення користувача 2</h3>
+        <input type="text" id="user2-input" placeholder="Введіть текст">
+        <button onclick="sendMessage(2)">Відправити</button>
+    </div>
+</div>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
